@@ -5,21 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="img/icon.png"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" 
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <title>Mark Lippett</title>
+  <title>Making A Mark 2020</title>
 </head>
 
 <body>
   <!-- NAV BAR GOES HERE -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav" id="main-nav">
     <div class="container">
-      <a href="#home" class="navbar-brand">
-        <img src="img/ml_logo.png" width="50" height="50" alt="">
-        <h3 class="d-inline align-middle">Mark Lippett</h3>
+      <a href="index.html" class="navbar-brand">
+        <img src="img/mlogo.png" width="50" height="50" alt="">
+        <h4 class="d-inline align-middle">Making A Mark</h4>
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -27,33 +31,481 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Introduction</a>
+            <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="virtual.html" class="nav-link active">Virtual Exhibition</a>
+            <a href="intro.html" class="nav-link">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a href="virtual.html" class="nav-link active">Exhibition</a>
           </li>
           <li class="nav-item">
             <a href="tutor.html" class="nav-link">Tutor</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.php" class="nav-link">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  
+  <!-- GALLERY SECTION -->
 
+  <div class="card card-body py-5 ">
+    <h3 class="display-5 text-center">An art exhibition by the students of professional artist - Mark Lippett</h3>
+    <br><br>
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Jan Adamson Tinsters Wood.jpg" data-toggle="lightbox">
+          <img src="img/Jan Adamson Tinsters Wood.jpg" alt="Acrylic painting of a wood" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Jan Adamson</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Tinsters Wood'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £65</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Keith Litherland.jpg" data-toggle="lightbox">
+          <img src="img/Keith Litherland.jpg" alt="Acrylic painting of a forest" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted" >Keith Litherland</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Trentham View'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £75</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Janice Jennings.jpg" data-toggle="lightbox">
+          <img src="img/Janice Jennings.jpg" alt="Oil Painting of a sea view" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Janice Jennings</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Low Tide at Staithes'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Oil Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+    </div>
 
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Jo Reynolds.jpg" data-toggle="lightbox">
+          <img src="img/Jo Reynolds.jpg" alt="Acrylic painting of a dog" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Jo Reynolds</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Barney Boy'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Jo Warrington.jpg" data-toggle="lightbox">
+          <img src="img/Jo Warrington.jpg" alt="Pencil Drawing of Saddleback pigs" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Jo Warrington</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Saddlebacks in the Lakes'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Pencil Drawing</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Janet Askey Joe.jpg" data-toggle="lightbox">
+          <img src="img/Janet Askey Joe.jpg" alt="Acrylic painting of a young boy" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Janet Askey</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Joe'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Les Grindey.jpg" data-toggle="lightbox">
+          <img src="img/Les Grindey.jpg" alt="Pencil drawing of saint nazaire" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Leslie Grindey</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Saint Nazaire'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Pencil Drawing</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Cilla Pember.jpg" data-toggle="lightbox">
+          <img src="img/Cilla Pember.jpg" alt="Acrylic painting  trees along the river" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Cilla Pember</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Trees Along the River Bank'</'span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Lydia Hudson.jpg" data-toggle="lightbox">
+          <img src="img/Lydia Hudson.jpg" alt="Acrylic painting sun rays through trees" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Lydia Hudson</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Autumn Rays'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £200</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Maureen Jeavons.jpg" data-toggle="lightbox">
+          <img src="img/Maureen Jeavons.jpg" alt="~Ink pen wash Hadrians wall" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Maureen Jeavons</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Hadrians Wall'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink pen and wash</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Dawn Corien-Davies.png" data-toggle="lightbox">
+          <img src="img/Dawn Corien-Davies.png" alt="Charcoal drawing beastie" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Dawn Corien-Davies</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Beastie'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Charcoal and chalk</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Sarah Lippett.jpg" data-toggle="lightbox">
+          <img src="img/Sarah Lippett.jpg" alt="Water colour waxwig bird" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Sarah Lippett</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Waxwing'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Watercolour</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £60</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Sue Rundle-Hughes.jpg" data-toggle="lightbox">
+          <img src="img/Sue Rundle-Hughes.jpg" alt="Acrylic painting young girl looking in a mirror" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Sue Rundle-Hughes</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Annwn'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Angela Oliver.jpg" data-toggle="lightbox">
+          <img src="img/Angela Oliver.jpg" alt="Acrylic painting sunlight through the trees" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Angela Oliver</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Sunlight through the Trees'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Anne Cross.jpg" data-toggle="lightbox">
+          <img src="img/Anne Cross.jpg" alt="Water pencils of an Iris" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Anne Cross</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Iris'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Watercolour Pencils</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Barbara Shaw.jpg" data-toggle="lightbox">
+          <img src="img/Barbara Shaw.jpg" alt="Acrylic painting sea mist" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Barbara Shaw</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Sea Mist'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Bridge House, over Stock Beck, Ambleside.jpg" data-toggle="lightbox">
+          <img src="img/Bridge House, over Stock Beck, Ambleside.jpg" alt="bridge house over the river" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Hazel Bridgwater</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Bridge House over Stock Beck, Ambleside'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"></span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Liz Blatherwick.jpg" data-toggle="lightbox">
+          <img src="img/Liz Blatherwick.jpg" alt="Ink pen drawing woodland trees" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Liz Blatherwick</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Woodland Trees'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink Pen</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for Sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Claire Evans.jpg" data-toggle="lightbox">
+          <img src="img/Claire Evans.jpg" alt="Acrylic painting sunflowers in a watering can" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Claire Evans</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Sunflowers'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £45</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/David Ison.jpg" data-toggle="lightbox">
+          <img src="img/David Ison.jpg" alt="Acrylic painting of a old man" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> David Ison</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Old Man at Provence'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Raji Purple Pansy.jpeg" data-toggle="lightbox">
+          <img src="img/Raji Purple Pansy.jpeg" alt="Inktense pencils of a purple pansy" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Raji Mahesh</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Purple Pansy'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Inktense Pencils</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+      <a href="img/Chris Jones.jpg" data-toggle="lightbox">
+          <img src="img/Chris Jones.jpg" alt="oil painting sidmouth" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Chris Jones</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Sidmouth in Sunshine and Spray'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Oil Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £150</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Gloria Thompson.jpg" data-toggle="lightbox">
+          <img src="img/Gloria Thompson.jpg" alt="Acrylic painting stiring porridge" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Gloria Thompson</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Stirring the Porridge'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Ian Delamont foxy loxy.jpg" data-toggle="lightbox">
+          <img src="img/Ian Delamont foxy loxy.jpg" alt="Acrylic painting foxy loxy" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Ian Delamont</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Foxy Loxy'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £150</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+      <a href="img/Dyan Barnard.jpg" data-toggle="lightbox">
+          <img src="img/Dyan Barnard.jpg" alt="ink pen and wash tree" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Dyan Barnard</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"></span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink pen and wash</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+      <a href="img/debbie_munslow.jpg" data-toggle="lightbox">
+          <img src="img/debbie_munslow.jpg" alt="pencil drawing black and white robin" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Debbie Munslow</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted">'Black and White Robin'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Pencil Drawing</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+      <a href="img/Mary-Ann Burke.jpg" data-toggle="lightbox">
+          <img src="img/Mary-Ann Burke.jpg" alt="watercolour pencils on cannock chase" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Mary Ann-Burke</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Cannock Chase'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Watercolour Pencils</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+      <a href="img/netta-cartwright.jpg" data-toggle="lightbox">
+          <img src="img/netta-cartwright.jpg" alt="Care 4 Calai" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Netta Cartwright</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Care 4 Calais'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Mixed media drawing</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+      <a href="img/fullsizeoutput_b2e.jpeg" data-toggle="lightbox">
+          <img src="img/fullsizeoutput_b2e.jpeg" alt="Acrylic painting zebra in the bush" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Lesley Bazargan</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'In the Bush'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+      <a href="img/Lesley Lippett.jpg" data-toggle="lightbox">
+          <img src="img/Lesley Lippett.jpg" alt="Watercolour oranges" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Lesley Lippett</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted">'Oranges'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Watercolour</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £75</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+      <a href="img/Nigel Priestley.jpg" data-toggle="lightbox">
+          <img src="img/Nigel Priestley.jpg" alt="pencil drawing of a leaf" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Nigel Priestley</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Autumn Leaf'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Pencil Drawing</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+      <a href="img/fullsizeoutput_b30.jpeg" data-toggle="lightbox">
+          <img src="img/fullsizeoutput_b30.jpeg" alt="Acrylic painting of a border collie" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Diane Steventon</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Kasper the Border Collie'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Anne_Young.jpg" data-toggle="lightbox">
+          <img src="img/Anne_Young.jpg" alt="Acrylic painting of anemones" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Anne Young</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Anemones'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+      <a href="img/Megan Huckle.jpg" data-toggle="lightbox">
+          <img src="img/Megan Huckle.jpg" alt="Acrylic painting venice reflection" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Megan Huckle</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'A Venice Reflection'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Sally-Turner.jpg" data-toggle="lightbox">
+            <img src="img/Sally-Turner.jpg" alt="Into the Woods Acrylic painting" class="img-fluid">
+          </a>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Sally Turner</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Into the Woods'</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic Painting</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+        </div>
+        <div class="col-md-4">
+          <a href="img/Emily-Bradshaw.jpeg" data-toggle="lightbox">
+              <img src="img/Emily-Bradshaw.jpeg" alt="The Tide is Out pencil drawing" class="img-fluid">
+            </a>
+            <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Emily Bradshaw</span></p>
+            <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'The Tide is Out'</span></p>
+            <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Pencil drawing</span></p>
+            <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not For Sale</span></p>
+          </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+      <a href="img/Kim-Edwards.jpeg" data-toggle="lightbox">
+          <img src="img/Kim-Edwards.jpeg" alt="Winter woodland ink and water colour" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Kim Leath Edwards</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Winter Woodland'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink and Watercolour</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Michele Kirwan.jpeg" data-toggle="lightbox">
+            <img src="img/Michele Kirwan.jpeg" alt="Charcole drawing of an horse" class="img-fluid">
+          </a>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Michele Kirwan</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Running Free'</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Charcoal Drawing</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+        </div>
+      <div class="col-md-4">
+        <a href="img/Dylan-Edwards.jpeg" data-toggle="lightbox">
+          <img src="img/Dylan-Edwards.jpeg" alt="sea view" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Dylan Edwards</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'To the Sea'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic paint</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+      <a href="img/Suzanne-Ball.jpeg" data-toggle="lightbox">
+          <img src="img/Suzanne-Ball.jpeg" alt="girl sitting on drift wood on the beach" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Suzanne Ball</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Henrietta at Island Bay'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Acrylic painting</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+      <div class="col-md-4">
+        <a href="img/Lyn-Leech.jpeg" data-toggle="lightbox">
+            <img src="img/Lyn-Leech.jpeg" alt="woodland gate in pen and wash" class="img-fluid">
+          </a>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Lyn Leech</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Woodland Gate'</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink pen and wash</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+        </div>
+      <div class="col-md-4">
+        <a href="img/sara-hassall.jpeg" data-toggle="lightbox">
+          <img src="img/sara-hassall.jpeg" alt="winter morning ink pen and watercolour" class="img-fluid">
+        </a>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Sara Hassall</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted"> 'Winter Morning'</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink pen and watercolour</span></p>
+        <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <a href="img/Lilly-Hassall.jpeg" data-toggle="lightbox">
+            <img src="img/Lilly-Hassall.jpeg" alt="house draw in ink and watercolour" class="img-fluid">
+          </a>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Lily Hassall</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted">'No. 10 Sunset Grove'</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink and Watercolour</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> £99</span></p>
+        </div>
+        <div class="col-md-4">
+          <a href="img/Elizabeth-Shaw.jpg" data-toggle="lightbox">
+            <img src="img/Elizabeth-Shaw.jpg" alt="pen and wash owl" class="img-fluid">
+          </a>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Artist: <span class="text-muted"> Elizabeth Shaw</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Title of Work: <span class="text-muted">'Owl'</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Medium: <span class="text-muted"> Ink Pen and wash</span></p>
+          <p class="font-weight-bold" style="margin-top: 0 !important; margin-bottom: 0rem !important;">Price: <span class="text-muted"> Not for sale</span></p>
+        </div>
+    </div>
+
+  </div>
 
   <!-- FOOTER SECTION -->
-  <footer id="main-footer" class=" p-2 bg-dark text-white fixed-bottom">
+  <footer id="main-footer" class=" bg-dark text-white fixed-bottom">
     <div class="container">
       <div class="row text-center">
         <div class="col-md-12 text-center">
-          <p class="lead">
-            www.evanswebsolutions.co.uk Copyright &copy; <span id="year"></span>
+          <p>
+            <a href="https://evanswebsolutions.co.uk/" target="blank">www.evanswebsolutions.co.uk</a>
+              Copyright &copy;<span id="year"></span>
           </p>
         </div>
       </div>
@@ -63,16 +515,24 @@
 
 
 
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // LIGHTBOX INIT 
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
   </script>
 </body>
 

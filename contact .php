@@ -31,7 +31,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link active">Home</a>
+            <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="intro.html" class="nav-link">Introduction</a>
@@ -43,40 +43,71 @@
             <a href="tutor.html" class="nav-link">Tutor</a>
           </li>
           <li class="nav-item">
-            <a href="contact.php" class="nav-link">Contact Us</a>
+            <a href="contact.php" class="nav-link active">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- SHOWCASE SECTION -->
-  <section id="homePage" class="p-5">
-    <div class="primary-overlay text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h1 class="display-1 overlay-text mt-5 pt-5">
-              Making A Mark 
-              <br>2020
-            </h1>
-          </div>
-          <div class="col-md-12 text-center">
-            <h1 class="display-5">'An art exhibition by the students of professional artist - <span class="tutor">Mark Lippett'</span></h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ <!-- CONTACT FORM SECTION -->
+ <?php 
+     $Msg = "";
+      if(isset($_GET['error']))
+      {
+        $Msg = " Please Fill in the Blanks ";
+        echo '<div class="alert alert-danger">'.$Msg.'</div>';
+      }
 
-  <!-- BANNER SECTION -->
-  <section id="newsletter" class="text-white py-3">
-    <div class="container">
-      <div class="row">
-        
-      </div>
-    </div>
-  </section>
+      if(isset($_GET['success']))
+      {
+        $Msg = " Your Message Has Been Sent ";
+        echo '<div class="alert alert-success">'.$Msg.'</div>';
+      }
+                        
+  ?>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact-section bg-light">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 order-1 text-center">
+                  <h4 class="card-title"><br><br>If you have any questions about any of the peices of art work, 
+                    please do not esertate in getting intouch where I will be 
+                    happy to answer any questions</h4>
+  
+                    <a href="https://www.facebook.com/marklippettart/" target="blank" class="my-text">
+                      <i class="fab fa-facebook fa-3x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/marklippettartist/?hl=en" target="blank" class="my-text">
+                      <i class="fab fa-instagram fa-3x"></i>
+                    </a>
+                    <a href="https://twitter.com/planivaar?lang=en" target="blank" class="my-text">
+                      <i class="fab fa-twitter fa-3x"></i>
+                    </a>
+                    <a href="mailto:marklippett@hotmail.co.uk" target="blank" class="my-text">
+                    <i class="fas fa-envelope fa-3x"></i>
+                    </a>
+                </div>
+
+                <div class="col-md-6 order-2 text-center mt-2">
+                    <h2 class="card-title">Contact Us</h2>
+
+                    <form action="process.php" method="post">
+                      <input type="text" name="Name" placeholder="Name" class="form-control mb-2">
+                      <input type="email" name="Email" placeholder="Email" class="form-control mb-2">
+                      <input type="text" name="Subject" placeholder="Subject" class="form-control mb-2">
+                      <textarea name="msg" class="form-control mb-2" placeholder="Write The Message"></textarea>
+                      <button class="btn btn-block btn-primary" name="btn-send"> Send </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
 
 
 
@@ -103,10 +134,18 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // LIGHTBOX INIT 
+    $(document).on('click', '[data-toggle="lightbox"]', function (e) {
+      e.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
   </script>
 </body>
 
